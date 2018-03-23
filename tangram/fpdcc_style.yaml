@@ -3154,7 +3154,7 @@ layers:
                     cap: round
                     join: round
                     color: global.offwhite_color
-                    width: [[13,0px], [14, 3px], [15, 5px], [16, 6px], [18, 3.25m]]
+                    width: [[13,0px], [14, 3px], [15, 5px], [16, 6px], [18, 3m]]
                 text-blend-order:
                     priority: 18
                     visible: global.text_visible_piste

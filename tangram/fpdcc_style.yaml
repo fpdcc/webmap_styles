@@ -1707,13 +1707,13 @@ layers:
                                 family: global.text_font_family
                                 style: italic
                                 weight: normal
-                                size: [[5, 0px], [12, 13px], [14, 14px]]
+                                size: [[1, 0px], [14, 13px], [16, 14px]]
                 lakes-z5-up:
                     filter: { $zoom: { min: 5 } }
                     draw:
                         text-blend-order:
                             font:
-                                size: [[5, 0px], [12, 13px], [14, 14px]]
+                                size: [[1, 0px], [14, 13px], [16, 14px]]
             playa-labels:
                 filter:
                     all:

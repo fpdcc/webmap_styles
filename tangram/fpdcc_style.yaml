@@ -1620,12 +1620,12 @@ layers:
                         width: [[9, 0px], [11, 0px], [14, 0px], [15, 0px]]
         new_river:
             #river center lines, not boundaries for polygons
-            filter: { kind: [river,canal,stream,dam,ditch,drain], $zoom: { min: 14 }, not: { is_tunnel: true } }
+            filter: { kind: [river,canal,stream,dam,ditch,drain], $zoom: { min: 12 }, not: { is_tunnel: true } }
             draw:
                 lines:
                     order: global.feature_order
                     color: '#8BD1E3'
-                    width: [[14, 0.5px], [15, 2px], [17, 6px],[ 18, 8px]]
+                    width: [[12, 0.5px], [15, 2px], [17, 4px], [19, 3.5m]]
                     cap: round
 
         water-area-labels:
@@ -1707,13 +1707,13 @@ layers:
                                 family: global.text_font_family
                                 style: italic
                                 weight: normal
-                                size: 12px
+                                size: [[1, 0px], [14, 13px], [16, 14px]]
                 lakes-z5-up:
                     filter: { $zoom: { min: 5 } }
                     draw:
                         text-blend-order:
                             font:
-                                size: [[5, 9px], [10, 13px]]
+                                size: [[1, 0px], [14, 13px], [16, 14px]]
             playa-labels:
                 filter:
                     all:
